@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "e187f3b3e7dc63c01655d658436cdc89",
+      "MD5-CAM-1.0.1" : "7d54511537c21230b66870ba3051dcc6",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.1",
+      "sem_ver" : "1.0.0-alpha.2",
       "build_uid" : ""
     },
     "details" : {
@@ -358,18 +358,22 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "http://hl7.org/fhir/consent-provision-type"
+                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
                         },
                         "constraint" : [ ],
-                        "selectedTerminologies" : [ "http://hl7.org/fhir/consent-provision-type" ],
+                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
                         "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "deny",
-                          "value" : "Opt Out"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373066001",
+                          "value" : "Yes"
                         }, {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "permit",
-                          "value" : "Opt In"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373067005",
+                          "value" : "No"
+                        }, {
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "UNK",
+                          "value" : "Unknown"
                         } ]
                       } ]
                     } ],
@@ -468,18 +472,22 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "http://hl7.org/fhir/consent-provision-type"
+                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
                         },
                         "constraint" : [ ],
-                        "selectedTerminologies" : [ "http://hl7.org/fhir/consent-provision-type" ],
+                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
                         "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "deny",
-                          "value" : "Opt Out"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373066001",
+                          "value" : "Yes"
                         }, {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "permit",
-                          "value" : "Opt In"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373067005",
+                          "value" : "No"
+                        }, {
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "UNK",
+                          "value" : "Unknown"
                         } ]
                       } ]
                     } ],
@@ -578,18 +586,22 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "http://hl7.org/fhir/consent-provision-type"
+                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
                         },
                         "constraint" : [ ],
-                        "selectedTerminologies" : [ "http://hl7.org/fhir/consent-provision-type" ],
+                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
                         "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "deny",
-                          "value" : "Opt Out"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373066001",
+                          "value" : "Yes"
                         }, {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "permit",
-                          "value" : "Opt In"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373067005",
+                          "value" : "No"
+                        }, {
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "UNK",
+                          "value" : "Unknown"
                         } ]
                       } ]
                     } ],
@@ -688,18 +700,22 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "http://hl7.org/fhir/consent-provision-type"
+                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
                         },
                         "constraint" : [ ],
-                        "selectedTerminologies" : [ "http://hl7.org/fhir/consent-provision-type" ],
+                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
                         "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "deny",
-                          "value" : "Opt Out"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373066001",
+                          "value" : "Yes"
                         }, {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "permit",
-                          "value" : "Opt In"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373067005",
+                          "value" : "No"
+                        }, {
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "UNK",
+                          "value" : "Unknown"
                         } ]
                       } ]
                     } ],
@@ -775,18 +791,22 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "http://hl7.org/fhir/consent-provision-type"
+                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
                         },
                         "constraint" : [ ],
-                        "selectedTerminologies" : [ "http://hl7.org/fhir/consent-provision-type" ],
+                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
                         "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "deny",
-                          "value" : "Opt Out"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373066001",
+                          "value" : "Yes"
                         }, {
-                          "terminologyId" : "http://hl7.org/fhir/consent-provision-type",
-                          "code" : "permit",
-                          "value" : "Opt In"
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "373067005",
+                          "value" : "No"
+                        }, {
+                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+                          "code" : "UNK",
+                          "value" : "Unknown"
                         } ]
                       } ]
                     } ],
