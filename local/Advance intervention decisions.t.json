@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "7d54511537c21230b66870ba3051dcc6",
+      "MD5-CAM-1.0.1" : "954cc5ccbd68d62e904c23fd907739a2",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.2",
+      "sem_ver" : "1.0.0-alpha.3",
       "build_uid" : ""
     },
     "details" : {
@@ -110,19 +110,15 @@
                   "rmAttributeName" : "defining_code",
                   "children" : [ {
                     "@type" : "C_TERMINOLOGY_CODE",
-                    "rmTypeName" : "CODE_PHRASE",
+                    "rmTypeName" : "TERMINOLOGY_CODE",
                     "occurrences" : "1..1",
                     "terminologyId" : {
-                      "value" : "local"
+                      "value" : "ACP Primary Agreed-upon Goal of Medical Policy"
                     },
-                    "constraint" : [ "at0003", "at0004", "at0005", "at0006", "at0007" ]
+                    "constraint" : [ "ac0.23" ],
+                    "selectedTerminologies" : [ "ACP Primary Agreed-upon Goal of Medical Policy" ]
                   } ]
                 } ],
-                "attributeTuples" : [ ]
-              }, {
-                "@type" : "C_COMPLEX_OBJECT",
-                "rmTypeName" : "DV_TEXT",
-                "attributes" : [ ],
                 "attributeTuples" : [ ]
               } ]
             } ],
@@ -1199,7 +1195,11 @@
         }
       }
     },
-    "termBindings" : { },
+    "termBindings" : {
+      "ACP Primary Agreed-upon Goal of Medical Policy" : {
+        "ac0.23" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-MedicalPolicyGoal"
+      }
+    },
     "terminologyExtracts" : { },
     "valueSets" : {
       "ac0.2" : {
@@ -1275,6 +1275,21 @@
       "ac0.21" : {
         "@type" : "VALUE_SET",
         "id" : "ac0.21",
+        "members" : [ ]
+      },
+      "ac0.22" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.22",
+        "members" : [ "at0003", "at0004", "at0005", "at0006", "at0007" ]
+      },
+      "ac0.24" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.24",
+        "members" : [ "at0003", "at0004", "at0005", "at0006", "at0007" ]
+      },
+      "ac0.25" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.25",
         "members" : [ ]
       }
     }
