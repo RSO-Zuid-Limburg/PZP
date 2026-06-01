@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "954cc5ccbd68d62e904c23fd907739a2",
+      "MD5-CAM-1.0.1" : "712459dd821a0a995a261e0ccd85a133",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.3",
+      "sem_ver" : "1.0.0-alpha.4",
       "build_uid" : ""
     },
     "details" : {
@@ -240,23 +240,10 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+                          "value" : "ACP Yes, No, Unknown valueSet"
                         },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373066001",
-                          "value" : "Yes"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373067005",
-                          "value" : "No"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "UNK",
-                          "value" : "Unknown"
-                        } ]
+                        "constraint" : [ "ac0.26" ],
+                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -354,23 +341,10 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+                          "value" : "ACP Yes, No, Unknown valueSet"
                         },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373066001",
-                          "value" : "Yes"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373067005",
-                          "value" : "No"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "UNK",
-                          "value" : "Unknown"
-                        } ]
+                        "constraint" : [ "ac0.27" ],
+                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -468,23 +442,10 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+                          "value" : "ACP Yes, No, Unknown valueSet"
                         },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373066001",
-                          "value" : "Yes"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373067005",
-                          "value" : "No"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "UNK",
-                          "value" : "Unknown"
-                        } ]
+                        "constraint" : [ "ac0.29" ],
+                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -582,23 +543,10 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+                          "value" : "ACP Yes, No, Unknown valueSet"
                         },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373066001",
-                          "value" : "Yes"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373067005",
-                          "value" : "No"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "UNK",
-                          "value" : "Unknown"
-                        } ]
+                        "constraint" : [ "ac0.30" ],
+                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -696,23 +644,10 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+                          "value" : "ACP Yes, No, Unknown valueSet"
                         },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373066001",
-                          "value" : "Yes"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373067005",
-                          "value" : "No"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "UNK",
-                          "value" : "Unknown"
-                        } ]
+                        "constraint" : [ "ac0.31" ],
+                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -787,23 +722,10 @@
                         "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+                          "value" : "ACP Yes, No, Unknown valueSet"
                         },
-                        "constraint" : [ ],
-                        "selectedTerminologies" : [ "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS" ],
-                        "includedExternalTerminologyCodes" : [ {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373066001",
-                          "value" : "Yes"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "373067005",
-                          "value" : "No"
-                        }, {
-                          "terminologyId" : "https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
-                          "code" : "UNK",
-                          "value" : "Unknown"
-                        } ]
+                        "constraint" : [ "ac0.32" ],
+                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -1198,6 +1120,14 @@
     "termBindings" : {
       "ACP Primary Agreed-upon Goal of Medical Policy" : {
         "ac0.23" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-MedicalPolicyGoal"
+      },
+      "ACP Yes, No, Unknown valueSet" : {
+        "ac0.26" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+        "ac0.27" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+        "ac0.29" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+        "ac0.30" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+        "ac0.31" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS",
+        "ac0.32" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
       }
     },
     "terminologyExtracts" : { },
@@ -1290,6 +1220,11 @@
       "ac0.25" : {
         "@type" : "VALUE_SET",
         "id" : "ac0.25",
+        "members" : [ ]
+      },
+      "ac0.28" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.28",
         "members" : [ ]
       }
     }
