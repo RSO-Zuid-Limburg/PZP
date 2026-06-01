@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "20540dfbeeb7dc892ad8419ab3f68906",
-      "PARENT:MD5-CAM-1.0.1" : "CAC43F51B959C1BAF588E16126C71E63"
+      "MD5-CAM-1.0.1" : "fe9823a6d37400238e5c100a38a4414b",
+      "PARENT:MD5-CAM-1.0.1" : "CAC43F51B959C1BAF588E16126C71E63",
+      "sem_ver" : "1.0.0-alpha.1",
+      "build_uid" : ""
     },
     "details" : {
       "de" : {
@@ -65,7 +67,7 @@
   "differential" : true,
   "archetypeId" : {
     "@type" : "ARCHETYPE_HRID",
-    "value" : "openEHR-EHR-OBSERVATION.medicaldevice screening questionnaire.v0"
+    "value" : "openEHR-EHR-OBSERVATION.medicaldevice_screening_questionnaire.v0"
   },
   "definition" : {
     "@type" : "C_COMPLEX_OBJECT",
@@ -210,10 +212,10 @@
                                 "rmTypeName" : "TERMINOLOGY_CODE",
                                 "occurrences" : "1..1",
                                 "terminologyId" : {
-                                  "value" : "local"
+                                  "value" : "ACP Yes, No, Unknown valueSet"
                                 },
-                                "constraint" : [ "ac0.4" ],
-                                "selectedTerminologies" : [ ]
+                                "constraint" : [ "ac0.5" ],
+                                "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
                               } ]
                             } ],
                             "attributeTuples" : [ ]
@@ -315,12 +317,6 @@
           "text" : "Heeft de patiënt een ICD?",
           "description" : "Presence of the implanted device."
         },
-        "ac0.4" : {
-          "@type" : "ARCHETYPE_TERM",
-          "text" : "(Synthesized)",
-          "code" : "ac0.4",
-          "description" : ""
-        },
         "at0025.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0025.1",
@@ -334,12 +330,6 @@
           "text" : "*(Synthesized) (en)",
           "code" : "ac0.1",
           "description" : ""
-        },
-        "ac0.4" : {
-          "@type" : "ARCHETYPE_TERM",
-          "text" : "*(Synthesized) (en)",
-          "code" : "ac0.4",
-          "description" : ""
         }
       },
       "de" : {
@@ -348,16 +338,14 @@
           "text" : "*(Synthesized) (en)",
           "code" : "ac0.1",
           "description" : ""
-        },
-        "ac0.4" : {
-          "@type" : "ARCHETYPE_TERM",
-          "text" : "*(Synthesized) (en)",
-          "code" : "ac0.4",
-          "description" : ""
         }
       }
     },
-    "termBindings" : { },
+    "termBindings" : {
+      "ACP Yes, No, Unknown valueSet" : {
+        "ac0.5" : "terminology://fhir.hl7.org/ValueSet/$expand?url=https://api.iknl.nl/docs/pzp/r4/ValueSet/ACP-YesNoUnknownVS"
+      }
+    },
     "terminologyExtracts" : { },
     "valueSets" : {
       "ac0.1" : {
@@ -379,11 +367,21 @@
         "@type" : "VALUE_SET",
         "id" : "ac0.4",
         "members" : [ "at0023", "at0024", "at0027" ]
+      },
+      "ac0.6" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.6",
+        "members" : [ "at0023", "at0024", "at0027" ]
+      },
+      "ac0.7" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.7",
+        "members" : [ ]
       }
     }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "66d87941-6fb1-3a3a-8131-eb4bd6ed563d",
+  "buildUid" : "f04ae31b-55a6-3c02-9e3a-d1a80000873d",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
