@@ -22,10 +22,10 @@
       "original_namespace" : "nl.rsozuidlimburg",
       "original_publisher" : "RSO Zuid-Limburg",
       "custodian_namespace" : "nl.rsozuidlimburg",
-      "sem_ver" : "1.0.0-alpha.3",
+      "sem_ver" : "1.0.0-alpha.4",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "1c01a178bf0cc8a62afa13b448027ac7",
+      "MD5-CAM-1.0.1" : "f14c875d52d52df231c47ab5cc6a405b",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
@@ -112,8 +112,8 @@
         "nodeId" : "at0.2",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-euthanasia_screening-001.v0",
-        "referenceType" : "archetypeOverlay"
+        "archetypeRef" : "Euthanasia screening",
+        "referenceType" : "templateId"
       } ]
     } ],
     "attributeTuples" : [ ]
@@ -143,122 +143,6 @@
   "templateId" : "PZP - Euthanasia screening",
   "otherMetaData" : { },
   "templateOverlays" : [ {
-    "@type" : "TEMPLATE_OVERLAY",
-    "uid" : "11c04278-c275-4647-8612-17a38014cee3",
-    "description" : {
-      "@type" : "RESOURCE_DESCRIPTION",
-      "originalAuthor" : { },
-      "otherContributors" : [ ],
-      "ipAcknowledgements" : { },
-      "references" : { },
-      "conversionDetails" : { },
-      "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "96023e9af118ff21b5adf4640430023a"
-      },
-      "details" : {
-        "en" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "en"
-          },
-          "keywords" : [ ],
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        },
-        "nl" : {
-          "@type" : "RESOURCE_DESCRIPTION_ITEM",
-          "language" : {
-            "terminologyId" : {
-              "value" : "ISO_639-1"
-            },
-            "codeString" : "nl"
-          },
-          "keywords" : [ ],
-          "copyright" : "© openEHR Foundation",
-          "originalResourceUri" : { },
-          "otherDetails" : { }
-        }
-      }
-    },
-    "parentArchetypeId" : "openEHR-EHR-OBSERVATION.euthanasia_screening.v0",
-    "differential" : true,
-    "archetypeId" : {
-      "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-OBSERVATION.ovl-euthanasia_screening-001.v0"
-    },
-    "definition" : {
-      "@type" : "C_COMPLEX_OBJECT",
-      "rmTypeName" : "OBSERVATION",
-      "nodeId" : "at0000.1",
-      "attributes" : [ {
-        "@type" : "C_ATTRIBUTE",
-        "rmAttributeName" : "data",
-        "children" : [ {
-          "@type" : "C_COMPLEX_OBJECT",
-          "rmTypeName" : "HISTORY",
-          "nodeId" : "at0001",
-          "attributes" : [ {
-            "@type" : "C_ATTRIBUTE",
-            "rmAttributeName" : "events",
-            "children" : [ {
-              "@type" : "C_COMPLEX_OBJECT",
-              "rmTypeName" : "POINT_EVENT",
-              "occurrences" : "0..1",
-              "nodeId" : "at0002.1",
-              "attributes" : [ ],
-              "attributeTuples" : [ ]
-            } ]
-          } ],
-          "attributeTuples" : [ ]
-        } ]
-      } ],
-      "attributeTuples" : [ ]
-    },
-    "terminology" : {
-      "@type" : "ARCHETYPE_TERMINOLOGY",
-      "conceptCode" : "at0000",
-      "termDefinitions" : {
-        "en" : {
-          "at0002.1" : {
-            "@type" : "ARCHETYPE_TERM",
-            "code" : "at0002.1",
-            "text" : "Point in time",
-            "description" : "@ internal @"
-          }
-        },
-        "nl" : { }
-      },
-      "termBindings" : { },
-      "terminologyExtracts" : { },
-      "valueSets" : { }
-    },
-    "adlVersion" : "1.4",
-    "buildUid" : "3da94c75-7df4-3401-b180-c1cbfbacf9de",
-    "rmName" : "openehr",
-    "rmRelease" : "1.1.0",
-    "generated" : true,
-    "otherMetaData" : { },
-    "originalLanguage" : {
-      "terminologyId" : {
-        "value" : "ISO_639-1"
-      },
-      "codeString" : "en"
-    },
-    "translations" : [ {
-      "@type" : "TRANSLATION_DETAILS",
-      "language" : {
-        "terminologyId" : {
-          "value" : "ISO_639-1"
-        },
-        "codeString" : "nl"
-      },
-      "author" : { },
-      "otherDetails" : { }
-    } ]
-  }, {
     "@type" : "TEMPLATE_OVERLAY",
     "uid" : "91a3ee38-9009-4193-8bb5-a4394c0b412a",
     "description" : {
