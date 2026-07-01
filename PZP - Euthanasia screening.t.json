@@ -22,10 +22,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0-alpha.1",
+      "sem_ver" : "1.0.0-alpha.2",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "93218d3799252a6fce205abb1ec4a15c",
+      "MD5-CAM-1.0.1" : "47c3b894089d9370ed10ed3de036ce19",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
@@ -126,7 +126,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "PZP - Euthanasia screening",
+          "text" : "Euthanasia screening",
           "description" : "A plan for the management of future health and social care requirements, including chronic illness and end of life care."
         }
       }
