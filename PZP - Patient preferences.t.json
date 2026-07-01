@@ -17,15 +17,15 @@
     "references" : { },
     "conversionDetails" : { },
     "otherDetails" : {
-      "licence" : "",
-      "custodian_organisation" : "",
-      "original_namespace" : "",
-      "original_publisher" : "",
-      "custodian_namespace" : "",
-      "sem_ver" : "1.0.0-alpha.3",
+      "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
+      "custodian_organisation" : "RSO Zuid-Limburg",
+      "original_namespace" : "nl.rsozuidlimburg",
+      "original_publisher" : "RSO Zuid-Limburg",
+      "custodian_namespace" : "nl.rsozuidlimburg",
+      "sem_ver" : "1.0.0-alpha.4",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "c99633c1516a3f83ab5ea5a7fc1556fa",
+      "MD5-CAM-1.0.1" : "db92a8284afe8cfa51d90fccae30c838",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
