@@ -17,15 +17,15 @@
     "references" : { },
     "conversionDetails" : { },
     "otherDetails" : {
-      "licence" : "",
-      "custodian_organisation" : "",
-      "original_namespace" : "",
-      "original_publisher" : "",
-      "custodian_namespace" : "",
-      "sem_ver" : "1.0.0-alpha.2",
+      "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
+      "custodian_organisation" : "RSO Zuid-Limburg",
+      "original_namespace" : "nl.rsozuidlimburg",
+      "original_publisher" : "RSO Zuid-Limburg",
+      "custodian_namespace" : "nl.rsozuidlimburg",
+      "sem_ver" : "1.0.0-alpha.3",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "47c3b894089d9370ed10ed3de036ce19",
+      "MD5-CAM-1.0.1" : "1c01a178bf0cc8a62afa13b448027ac7",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
@@ -155,7 +155,33 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "96023e9af118ff21b5adf4640430023a"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "keywords" : [ ],
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.euthanasia_screening.v0",
     "differential" : true,
@@ -245,7 +271,23 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "E62D896E2577FA727C75A9EFFD7CA63E"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record additional composition metadata aligned with IHE-XDS which is not already available from the Reference Model COMPOSITION class.",
+          "keywords" : [ "Document, metadata", "IHE", "XDS" ],
+          "use" : "Use to add IHE-XDS aligned metadata to a COMPOSITION.context, which along with existing COMPOSITION attributes, allows the composition to be registered in an IHE-XDS environment.",
+          "copyright" : "© Apperta Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.xds_metadata.v0",
     "differential" : true,
@@ -376,7 +418,20 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "cb43f0f90b4194cfafa7c2a55a56f648"
       },
-      "details" : { }
+      "details" : {
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.care_journey_metadata.v0",
     "differential" : true,
