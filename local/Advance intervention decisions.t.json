@@ -21,7 +21,7 @@
       "custodian_namespace" : "org.openehr",
       "MD5-CAM-1.0.1" : "6e8fb40240398a2766c0fdf311ef43aa",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.5",
+      "sem_ver" : "1.0.0-alpha.6",
       "build_uid" : ""
     },
     "details" : {
