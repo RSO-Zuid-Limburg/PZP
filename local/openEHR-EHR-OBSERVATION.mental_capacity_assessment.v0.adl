@@ -34,7 +34,7 @@ What is capacity? [Internet]. Compassion in Dying. 2020 [cited 2020 May 12]. Ava
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3ed672f057423784d3c01d8c0dd6ac8f">
+		["MD5-CAM-1.0.1"] = <"eb16cbf43a16cb93e556346dcab2c2a2">
 		["build_uid"] = <"3e767161-8af7-3b2a-9dc0-a499c419cded">
 	>
 
@@ -234,7 +234,7 @@ ontology
 				>
 				["at0023"] = <
 					text = <"Context">
-					description = <"Description of the specific contexy to which the mental capacity status and assessment details relate.">
+					description = <"Description of the specific context to which the mental capacity status and assessment details relate.">
 				>
 			>
 		>
