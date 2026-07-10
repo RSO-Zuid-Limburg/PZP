@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "749840f4b8618dc66050f2eb3550987d",
+      "MD5-CAM-1.0.1" : "a65c34d260017b40f74a2971a9b623ff",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.8",
+      "sem_ver" : "1.0.0-alpha.9",
       "build_uid" : ""
     },
     "details" : {
@@ -337,13 +337,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.27" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -438,13 +437,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.29" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -539,13 +537,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.30" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -640,13 +637,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.31" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -718,13 +714,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.32" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -797,13 +792,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.33" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -947,23 +941,11 @@
           "text" : "Opname op intensive care",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
-        "at0034.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0014.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.3",
           "text" : "Opname in ziekenhuis",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
-        },
-        "at0034.3" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
         },
         "at0014.4" : {
           "@type" : "ARCHETYPE_TERM",
@@ -971,35 +953,17 @@
           "text" : "Behandeling met antibiotica",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
-        "at0034.4" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0014.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.5",
           "text" : "Toediening van een bloedproduct",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
-        "at0034.5" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0014.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.6",
           "text" : "Overige behandelgrenzen",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
-        },
-        "at0034.6" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
         },
         "at0009.1" : {
           "@type" : "ARCHETYPE_TERM",
@@ -1109,12 +1073,6 @@
           "text" : "Is er een afrspraak over moment van uitzetten ICD?",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
-        "at0034.7" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0040.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.7",
@@ -1125,6 +1083,42 @@
         "at0034.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.1",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.2",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.3",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.4",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.5" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.5",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.6" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.6",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.7" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.7",
           "text" : "Behandelbesluit",
           "description" : "Decision about the identified intervention."
         }
