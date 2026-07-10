@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "81a59184752335c2dd0024e8a338c31a",
+      "MD5-CAM-1.0.1" : "e23b1784944f0f3d086b4bf405d386f7",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.11",
+      "sem_ver" : "1.0.0-alpha.12",
       "build_uid" : ""
     },
     "details" : {
@@ -537,13 +537,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.30" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -957,12 +956,6 @@
           "text" : "Behandeling met antibiotica",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
-        "at0034.4" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0014.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.5",
@@ -1123,6 +1116,12 @@
         "at0034.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.3",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.4",
           "text" : "Behandelbesluit",
           "description" : "Decision about the identified intervention."
         }
