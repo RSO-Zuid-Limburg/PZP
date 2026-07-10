@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "0df95fdde418319cb27b14f263ac89ac",
+      "MD5-CAM-1.0.1" : "749840f4b8618dc66050f2eb3550987d",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.7",
+      "sem_ver" : "1.0.0-alpha.8",
       "build_uid" : ""
     },
     "details" : {
@@ -237,13 +237,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.26" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -929,12 +928,6 @@
     "conceptCode" : "at0000",
     "termDefinitions" : {
       "en" : {
-        "at0034.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0002.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
@@ -1128,6 +1121,12 @@
           "text" : "Toelichting gemaakte afspraken",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
+        },
+        "at0034.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.1",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
         }
       },
       "nb" : {
