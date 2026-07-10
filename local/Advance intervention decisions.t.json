@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "bcb811da8eb8c4e87712dfba504e4f70",
+      "MD5-CAM-1.0.1" : "518b5910871407d2c0d48942aedc7815",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.15",
+      "sem_ver" : "1.0.0-alpha.16",
       "build_uid" : ""
     },
     "details" : {
@@ -702,6 +702,33 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
+                "nodeId" : "at0034.7",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "value",
+                  "children" : [ {
+                    "@type" : "C_COMPLEX_OBJECT",
+                    "rmTypeName" : "DV_CODED_TEXT",
+                    "attributes" : [ {
+                      "@type" : "C_ATTRIBUTE",
+                      "rmAttributeName" : "defining_code",
+                      "children" : [ {
+                        "@type" : "C_TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
+                        "occurrences" : "1..1",
+                        "terminologyId" : {
+                          "value" : "local"
+                        },
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
+                      } ]
+                    } ],
+                    "attributeTuples" : [ ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              }, {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "ELEMENT",
                 "occurrences" : "0..0",
                 "nodeId" : "at0039.1",
                 "attributes" : [ ],
@@ -1086,6 +1113,12 @@
         "at0034.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.6",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.7" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.7",
           "text" : "Behandelbesluit",
           "description" : "Decision about the identified intervention."
         }
