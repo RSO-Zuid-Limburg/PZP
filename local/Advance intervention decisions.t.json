@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "d9906878a131be2d55d119d71957900e",
+      "MD5-CAM-1.0.1" : "bcb811da8eb8c4e87712dfba504e4f70",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.14",
+      "sem_ver" : "1.0.0-alpha.15",
       "build_uid" : ""
     },
     "details" : {
@@ -753,7 +753,7 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
-                "nodeId" : "at0034.7",
+                "nodeId" : "at0034.6",
                 "attributes" : [ {
                   "@type" : "C_ATTRIBUTE",
                   "rmAttributeName" : "value",
@@ -765,13 +765,12 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "rmTypeName" : "CODE_PHRASE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "ACP Yes, No, Unknown valueSet"
+                          "value" : "local"
                         },
-                        "constraint" : [ "ac0.33" ],
-                        "selectedTerminologies" : [ "ACP Yes, No, Unknown valueSet" ]
+                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -1047,12 +1046,6 @@
           "text" : "Is er een afrspraak over moment van uitzetten ICD?",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
-        "at0034.7" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0034.1",
-          "text" : "Behandelbesluit",
-          "description" : "Decision about the identified intervention."
-        },
         "at0040.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.7",
@@ -1087,6 +1080,12 @@
         "at0034.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.5",
+          "text" : "Behandelbesluit",
+          "description" : "Decision about the identified intervention."
+        },
+        "at0034.6" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.6",
           "text" : "Behandelbesluit",
           "description" : "Decision about the identified intervention."
         }
