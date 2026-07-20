@@ -22,10 +22,10 @@
       "original_namespace" : "nl.rsozuidlimburg",
       "original_publisher" : "RSO Zuid-Limburg",
       "custodian_namespace" : "nl.rsozuidlimburg",
-      "sem_ver" : "1.0.0-alpha.4",
+      "sem_ver" : "1.0.0-alpha.5",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "3ceabb0eb1f3a591778b8f5fd9af3bb5",
+      "MD5-CAM-1.0.1" : "8b8563c9f0930c2eebbf08e26c7e9afa",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
     },
     "details" : {
@@ -107,12 +107,12 @@
       },
       "children" : [ {
         "@type" : "C_ARCHETYPE_ROOT",
-        "rmTypeName" : "OBSERVATION",
+        "rmTypeName" : "EVALUATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.2",
+        "nodeId" : "at0.4",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "Euthanasia screening",
+        "archetypeRef" : "Euthanasia position",
         "referenceType" : "templateId"
       } ]
     } ],
@@ -126,7 +126,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Euthanasia screening",
+          "text" : "Euthanasia position",
           "description" : "A plan for the management of future health and social care requirements, including chronic illness and end of life care."
         }
       }
