@@ -11,18 +11,19 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "in_development"
     },
     "ipAcknowledgements" : { },
     "references" : { },
     "conversionDetails" : { },
     "otherDetails" : {
-      "licence" : "",
-      "custodian_organisation" : "",
-      "original_namespace" : "",
-      "original_publisher" : "",
-      "custodian_namespace" : "",
-      "sem_ver" : "1.0.0-alpha.1",
+      "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
+      "custodian_organisation" : "RSO Zuid-Limburg",
+      "original_namespace" : "nl.rsozuidlimburg",
+      "original_publisher" : "RSO Zuid-Limburg",
+      "custodian_namespace" : "nl.rsozuidlimburg",
+      "sem_ver" : "1.0.0-alpha.2",
+      "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
       "MD5-CAM-1.0.1" : "a337545007905e743f7b7949306459c8",
       "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
@@ -120,7 +121,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "745354a5-34ec-3af4-8494-d16bc42ce6a1",
+  "buildUid" : "ee990b36-db75-3806-bac7-af90c95451ed",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
