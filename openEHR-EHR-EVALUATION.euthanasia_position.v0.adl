@@ -6,6 +6,13 @@ concept
 
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+			>
+		>
+	>
 
 description
 	original_author = <
@@ -19,6 +26,10 @@ description
 		["en"] = <
 			language = <[ISO_639-1::en]>
 		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			copyright = <"© openEHR Foundation">
+		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
@@ -26,7 +37,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"ef0ad809fe0648e73f1c285e3a25017f">
+		["MD5-CAM-1.0.1"] = <"37d0d19fd61b80badff4b3f7c69cead7">
 		["build_uid"] = <"02160338-2f31-3867-ba6f-c57b792c4423">
 	>
 
@@ -113,6 +124,51 @@ ontology
 					text = <"Extension">
 					description = <"Additional information required to extend the model with local content or to align with other reference models/formalisms.">
 					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"Euthanasie standpunt">
+					description = <"Het standpunt van een individu inzake euthanasie, zoals naar voren gebracht door een clinicus.">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Euthanasie standpunt">
+					description = <"Het standpunt van een individu inzake euthanasie.">
+				>
+				["at0003"] = <
+					text = <"Heeft euthanasieverklaring">
+					description = <"De persoon heeft een euthanasieverklaring opgesteld.">
+				>
+				["at0004"] = <
+					text = <"Wenst geen euthanasie">
+					description = <"De persoon wenst geen euthanasie.">
+				>
+				["at0005"] = <
+					text = <"Nog onbekend">
+					description = <"Het standpunt van de persoon over euthanasie is onbekend.">
+				>
+				["at0006"] = <
+					text = <"Geen euthanasieverklaring, zou wel verzoek kunnen doen in bepaalde situaties">
+					description = <"De persoon heeft geen euthanasieverklaring opgesteld, maar zou in bepaalde situaties een verzoek kunnen indienen.">
+				>
+				["at0007"] = <
+					text = <"Toelichting">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0009"] = <
+					text = <"Uitbreiding">
+					description = <"Aanvullende informatie die nodig is om het model uit te breiden met lokale inhoud of om het af te stemmen op andere referentiemodellen of formalismen.">
+					comment = <"Bijvoorbeeld: lokale informatiebehoeften; of aanvullende metadata om af te stemmen op FHIR.">
 				>
 			>
 		>
