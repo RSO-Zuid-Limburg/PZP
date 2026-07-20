@@ -19,9 +19,9 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "fc4bd5a0792b46a858e7e6e0e7f02e6b",
+      "MD5-CAM-1.0.1" : "9a1eb30dfa287dcaca379a4901248f50",
       "PARENT:MD5-CAM-1.0.1" : "87ad1f7f023ecaa3a07062248333b4dc",
-      "sem_ver" : "1.0.0-alpha.1",
+      "sem_ver" : "1.0.0-alpha.2",
       "build_uid" : ""
     },
     "details" : {
@@ -62,9 +62,29 @@
           "children" : [ {
             "@type" : "C_COMPLEX_OBJECT",
             "rmTypeName" : "ELEMENT",
-            "occurrences" : "0..0",
             "nodeId" : "at0011.1",
-            "attributes" : [ ],
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "value",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "DV_TEXT",
+                "defaultValue" : {
+                  "value" : "Proactieve zorgplanning",
+                  "@type" : "DV_TEXT"
+                },
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "value",
+                  "children" : [ {
+                    "@type" : "C_STRING",
+                    "rmTypeName" : "STRING",
+                    "constraint" : [ "Proactieve zorgplanning" ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              } ]
+            } ],
             "attributeTuples" : [ ]
           }, {
             "@type" : "C_COMPLEX_OBJECT",
