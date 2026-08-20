@@ -19,8 +19,10 @@
       "original_namespace" : "org.openehr",
       "original_publisher" : "openEHR Foundation",
       "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "0c29140aaa12ff9886bc547c6759d35e",
-      "PARENT:MD5-CAM-1.0.1" : "37d0d19fd61b80badff4b3f7c69cead7"
+      "MD5-CAM-1.0.1" : "330b2c91a251994f752e014218594eea",
+      "PARENT:MD5-CAM-1.0.1" : "9254286c96812c60c8e57857a30c5ca1",
+      "sem_ver" : "1.0.0-alpha.1",
+      "build_uid" : ""
     },
     "details" : {
       "en" : {
@@ -59,7 +61,27 @@
     "@type" : "C_COMPLEX_OBJECT",
     "rmTypeName" : "EVALUATION",
     "nodeId" : "at0000.1",
-    "attributes" : [ ],
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "data",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ITEM_TREE",
+        "nodeId" : "at0001",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "items",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "ELEMENT",
+            "nodeId" : "at0007.1",
+            "attributes" : [ ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      } ]
+    } ],
     "attributeTuples" : [ ]
   },
   "terminology" : {
@@ -67,7 +89,14 @@
     "conceptCode" : "at0000",
     "termDefinitions" : {
       "en" : { },
-      "nl" : { }
+      "nl" : {
+        "at0007.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0007.1",
+          "text" : "Toelichting",
+          "description" : ""
+        }
+      }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
