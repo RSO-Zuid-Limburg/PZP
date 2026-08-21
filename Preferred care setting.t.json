@@ -8,20 +8,20 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "unmanaged"
+      "codeString" : "in_development"
     },
     "ipAcknowledgements" : { },
     "references" : { },
     "conversionDetails" : { },
     "otherDetails" : {
       "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
-      "custodian_organisation" : "openEHR Foundation",
-      "original_namespace" : "org.openehr",
-      "original_publisher" : "openEHR Foundation",
-      "custodian_namespace" : "org.openehr",
+      "custodian_organisation" : "Stichting openEHR Nederland",
+      "original_namespace" : "nl.openehr",
+      "original_publisher" : "Stichting openEHR Nederland",
+      "custodian_namespace" : "nl.openehr",
       "MD5-CAM-1.0.1" : "feddf7c3b2bbc5b5adc9e0ab15f34cd2",
       "PARENT:MD5-CAM-1.0.1" : "35debad970401f06287de8d3cec3e0ed",
-      "sem_ver" : "1.0.0-alpha.2",
+      "sem_ver" : "1.0.0-alpha.3",
       "build_uid" : ""
     },
     "details" : {
@@ -243,7 +243,7 @@
     }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "691a15b5-1589-3955-8381-2158d4bbe60f",
+  "buildUid" : "ad60ad9f-0c93-3ac7-8fa5-bc403fa323e7",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
