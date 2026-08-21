@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "518b5910871407d2c0d48942aedc7815",
+      "MD5-CAM-1.0.1" : "c6eecee38f226235eaa8ef51876d6e98",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.18",
+      "sem_ver" : "1.0.0-alpha.19",
       "build_uid" : ""
     },
     "details" : {
@@ -761,7 +761,7 @@
                     "@type" : "C_COMPLEX_OBJECT",
                     "rmTypeName" : "DV_TEXT",
                     "defaultValue" : {
-                      "value" : "Uitzetten ICD",
+                      "value" : "Afspraak Uitzetten ICD",
                       "@type" : "DV_TEXT"
                     },
                     "attributes" : [ {
@@ -770,7 +770,7 @@
                       "children" : [ {
                         "@type" : "C_STRING",
                         "rmTypeName" : "STRING",
-                        "constraint" : [ "Uitzetten ICD" ]
+                        "constraint" : [ "Afspraak Uitzetten ICD" ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -792,12 +792,26 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "CODE_PHRASE",
+                        "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
-                          "value" : "local"
+                          "value" : "Afspraak Uitzetten ICD (BehandelBesluit)"
                         },
-                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
+                        "constraint" : [ ],
+                        "selectedTerminologies" : [ "Afspraak Uitzetten ICD (BehandelBesluit)" ],
+                        "includedExternalTerminologyCodes" : [ {
+                          "terminologyId" : "Afspraak Uitzetten ICD (BehandelBesluit)",
+                          "code" : "0",
+                          "value" : "Wel uitvoeren"
+                        }, {
+                          "terminologyId" : "Afspraak Uitzetten ICD (BehandelBesluit)",
+                          "code" : "ASKU",
+                          "value" : "Nee, nog geen besluit genomen"
+                        }, {
+                          "terminologyId" : "Afspraak Uitzetten ICD (BehandelBesluit)",
+                          "code" : "NASK",
+                          "value" : "Niet besproken"
+                        } ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -1365,6 +1379,21 @@
       "ac0.28" : {
         "@type" : "VALUE_SET",
         "id" : "ac0.28",
+        "members" : [ ]
+      },
+      "ac0.35" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.35",
+        "members" : [ "at0035", "at0036", "at0037", "at0038" ]
+      },
+      "ac0.36" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.36",
+        "members" : [ ]
+      },
+      "ac0.37" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.37",
         "members" : [ ]
       }
     }
