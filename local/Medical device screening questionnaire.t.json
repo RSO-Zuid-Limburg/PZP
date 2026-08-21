@@ -15,13 +15,13 @@
     "conversionDetails" : { },
     "otherDetails" : {
       "licence" : "This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.",
-      "custodian_organisation" : "openEHR Foundation",
-      "original_namespace" : "org.openehr",
-      "original_publisher" : "openEHR Foundation",
-      "custodian_namespace" : "org.openehr",
-      "MD5-CAM-1.0.1" : "fe9823a6d37400238e5c100a38a4414b",
+      "custodian_organisation" : "RSO Zuid-Limburg",
+      "original_namespace" : "nl.rsozuidlimburg",
+      "original_publisher" : "RSO Zuid-Limburg",
+      "custodian_namespace" : "nl.rsozuidlimburg",
+      "MD5-CAM-1.0.1" : "9b138accadf9bd7795254983d91a0697",
       "PARENT:MD5-CAM-1.0.1" : "CAC43F51B959C1BAF588E16126C71E63",
-      "sem_ver" : "1.0.0-alpha.1",
+      "sem_ver" : "1.0.0-alpha.2",
       "build_uid" : ""
     },
     "details" : {
