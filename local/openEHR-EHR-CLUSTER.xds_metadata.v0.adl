@@ -6,6 +6,13 @@ concept
 
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+			>
+		>
+	>
 
 description
 	original_author = <
@@ -24,6 +31,10 @@ description
 			copyright = <"© Apperta Foundation">
 			use = <"Use to add IHE-XDS aligned metadata to a COMPOSITION.context, which along with existing COMPOSITION attributes, allows the composition to be registered in an IHE-XDS environment.">
 		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			copyright = <"© openEHR Foundation">
+		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.">
@@ -34,7 +45,7 @@ description
 		["original_namespace"] = <"uk.org.clinicalmodels">
 		["original_publisher"] = <"UK Clinical Models">
 		["custodian_namespace"] = <"uk.org.clinicalmodels">
-		["MD5-CAM-1.0.1"] = <"E62D896E2577FA727C75A9EFFD7CA63E">
+		["MD5-CAM-1.0.1"] = <"9507765a3d43bf2aed5f87f5c0604055">
 		["build_uid"] = <"feed3fab-2d92-470b-a6c9-f19499a58c8b">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -182,6 +193,55 @@ Coded text is preferred, normally specific to an XDS Affinity Domain.">
 					text = <"Event code">
 					description = <"This list of codes represents the main clinical acts.">
 					comment = <"For example: Colonoscopy or appendicectomy.">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"*XDS Metadata (en)">
+					description = <"*Additional composition metadata aligned with IHE-XDS which is not already available from the Reference Model COMPOSITION class. (en)">
+				>
+				["at0001"] = <
+					text = <"*Author specialty (en)">
+					description = <"*The speciality of the author/composer of the document. (en)">
+				>
+				["at0002"] = <
+					text = <"*Class code (en)">
+					description = <"*A high-level document class code, normally selected from a valueset provided by the IHE-XDS Affinity Domain. (en)">
+					comment = <"*For example: Report, Summary, Images, Plan, Patient Preferences, Workflow.
+These codes are specific to an XDS Affinity Domain. (en)">
+				>
+				["at0003"] = <
+					text = <"*Document type (en)">
+					description = <"*The code specifying the precise type of document from the user perspective. Normally selected from a valueset provided by the local IHE-XDS Affinity Domain or national standard. (en)">
+					comment = <"*for example:  Pulmonary History and Physical, Discharge Summary, Ultrasound Report.
+These codes are specific to an XDS Affinity Domain. (en)">
+				>
+				["at0004"] = <
+					text = <"*Confidentiality code (en)">
+					description = <"*A term specifying the level of confidentiality of the XDS Document. (en)">
+					comment = <"*Coded text is preferred, normally specific to an XDS Affinity Domain. (en)">
+				>
+				["at0007"] = <
+					text = <"*Health care facility type (en)">
+					description = <"*A term defining the healthcare facility type. (en)">
+					comment = <"*Coded text is preferred. The codes are specific to an XDS Affinity Domain. (en)">
+				>
+				["at0009"] = <
+					text = <"*Practice setting code (en)">
+					description = <"*The code specifying the clinical specialty where the act that resulted in the document was performed. (en)">
+					comment = <"*For example: Family Practice, Laboratory, Radiology.
+Coded text is preferred, normally specific to an XDS Affinity Domain. (en)">
+				>
+				["at0010"] = <
+					text = <"*Document_media (en)">
+					description = <"*Additional metadata about the document itself, including size, url. (en)">
+				>
+				["at0011"] = <
+					text = <"*Event code (en)">
+					description = <"*This list of codes represents the main clinical acts. (en)">
+					comment = <"*For example: Colonoscopy or appendicectomy. (en)">
 				>
 			>
 		>
