@@ -6,6 +6,13 @@ concept
 
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+			>
+		>
+	>
 
 description
 	original_author = <
@@ -19,6 +26,10 @@ description
 		["en"] = <
 			language = <[ISO_639-1::en]>
 		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			copyright = <"© openEHR Foundation">
+		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
@@ -27,7 +38,7 @@ description
 		["original_namespace"] = <"com.freshehr">
 		["original_publisher"] = <"freshEHR Clinical Informatics">
 		["custodian_namespace"] = <"com.freshehr">
-		["MD5-CAM-1.0.1"] = <"35debad970401f06287de8d3cec3e0ed">
+		["MD5-CAM-1.0.1"] = <"9fd0940aa213a572427fcfc4dd7e8cd7">
 		["build_uid"] = <"49c92f52-5992-3786-b613-1047dab6b57f">
 		["revision"] = <"1.0.0-alpha.1">
 	>
@@ -165,6 +176,71 @@ ontology
 				["at0014"] = <
 					text = <"Rationale">
 					description = <"The reason why this location is preferred or recommended.">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Preferred care setting (en)">
+					description = <"*Optimum care setting (en)">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"*Care context (en)">
+					description = <"*The clinical or care context to which this recomendation or preference applies. (en)">
+					comment = <"*For example: Urgent care, Sickle cell disease, Respiratory issues. (en)">
+				>
+				["at0003"] = <
+					text = <"*Personal or professional (en)">
+					description = <"*Is this a personal preference or clinical recommendation (en)">
+				>
+				["at0004"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0005"] = <
+					text = <"*Personal preference (en)">
+					description = <"*This is a personal care setting preference. (en)">
+				>
+				["at0006"] = <
+					text = <"*Professional recommendation (en)">
+					description = <"*This is a professional care setting recommendation. (en)">
+				>
+				["at0007"] = <
+					text = <"*Preferred care setting (en)">
+					description = <"">
+				>
+				["at0008"] = <
+					text = <"*Order of preference (en)">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"*Care setting (en)">
+					description = <"">
+				>
+				["at0010"] = <
+					text = <"*Location details (en)">
+					description = <"">
+				>
+				["at0011"] = <
+					text = <"*Exact location (en)">
+					description = <"">
+				>
+				["at0012"] = <
+					text = <"*Extension (en)">
+					description = <"">
+				>
+				["at0013"] = <
+					text = <"*Last updated (en)">
+					description = <"">
+				>
+				["at0014"] = <
+					text = <"*Rationale (en)">
+					description = <"*The reason why this location is preferred or recommended. (en)">
 				>
 			>
 		>
