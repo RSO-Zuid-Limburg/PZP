@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "94daeda33ada706ac72f7983f2d4a56e",
+      "MD5-CAM-1.0.1" : "5379e3cb2f0f891c5d62bae32b5f1885",
       "PARENT:MD5-CAM-1.0.1" : "8d3d4e087840051c6901fb2ee7b49f30",
-      "sem_ver" : "1.0.0-alpha.6",
+      "sem_ver" : "1.0.0-alpha.7",
       "build_uid" : ""
     },
     "details" : {
@@ -102,6 +102,7 @@
           }, {
             "@type" : "C_COMPLEX_OBJECT",
             "rmTypeName" : "CLUSTER",
+            "occurrences" : "0..1",
             "nodeId" : "at0004.1",
             "attributes" : [ {
               "@type" : "C_ATTRIBUTE",
@@ -126,6 +127,7 @@
           }, {
             "@type" : "C_COMPLEX_OBJECT",
             "rmTypeName" : "CLUSTER",
+            "occurrences" : "0..1",
             "nodeId" : "at0004.2",
             "attributes" : [ {
               "@type" : "C_ATTRIBUTE",
