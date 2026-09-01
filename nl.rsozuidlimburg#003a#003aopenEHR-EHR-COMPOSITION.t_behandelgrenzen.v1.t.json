@@ -25,8 +25,8 @@
       "sem_ver" : "1.0.0-alpha.6",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "38eee85960f9338c9ff9e00cd76df2f2",
-      "PARENT:MD5-CAM-1.0.1" : "25A207093B9E4A32A7F2A9463F5D434F"
+      "MD5-CAM-1.0.1" : "ec2a55ebf6f5e05b133febd9de61cc2c",
+      "PARENT:MD5-CAM-1.0.1" : "0a8590e666d6bfe0c863a79f4b610652"
     },
     "details" : {
       "en" : {
@@ -38,6 +38,19 @@
           "codeString" : "en"
         },
         "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "keywords" : [ ],
+        "copyright" : "© openEHR Foundation",
         "originalResourceUri" : { },
         "otherDetails" : { }
       }
@@ -138,7 +151,8 @@
           "text" : "Behandelgrenzen",
           "description" : "A plan for the management of future health and social care requirements, including chronic illness and end of life care."
         }
-      }
+      },
+      "nl" : { }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
@@ -162,7 +176,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "E62D896E2577FA727C75A9EFFD7CA63E"
+        "PARENT:MD5-CAM-1.0.1" : "9507765a3d43bf2aed5f87f5c0604055"
       },
       "details" : {
         "en" : {
@@ -177,6 +191,19 @@
           "keywords" : [ "Document, metadata", "IHE", "XDS" ],
           "use" : "Use to add IHE-XDS aligned metadata to a COMPOSITION.context, which along with existing COMPOSITION attributes, allows the composition to be registered in an IHE-XDS environment.",
           "copyright" : "© Apperta Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "keywords" : [ ],
+          "copyright" : "© openEHR Foundation",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -279,7 +306,8 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : { },
+        "nl" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -297,7 +325,17 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ ]
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    } ]
   }, {
     "@type" : "TEMPLATE_OVERLAY",
     "uid" : "b4f78a10-41cf-4698-a4a7-537bdb1da9a0",
@@ -309,7 +347,7 @@
       "references" : { },
       "conversionDetails" : { },
       "otherDetails" : {
-        "PARENT:MD5-CAM-1.0.1" : "cb43f0f90b4194cfafa7c2a55a56f648"
+        "PARENT:MD5-CAM-1.0.1" : "3b03186e9558761ac0a4788822af2235"
       },
       "details" : {
         "en" : {
@@ -321,6 +359,19 @@
             "codeString" : "en"
           },
           "keywords" : [ ],
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nl" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nl"
+          },
+          "keywords" : [ ],
+          "copyright" : "© openEHR Foundation",
           "originalResourceUri" : { },
           "otherDetails" : { }
         }
@@ -377,7 +428,8 @@
       "@type" : "ARCHETYPE_TERMINOLOGY",
       "conceptCode" : "at0000",
       "termDefinitions" : {
-        "en" : { }
+        "en" : { },
+        "nl" : { }
       },
       "termBindings" : { },
       "terminologyExtracts" : { },
@@ -395,7 +447,17 @@
       },
       "codeString" : "en"
     },
-    "translations" : [ ]
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : { },
+      "otherDetails" : { }
+    } ]
   } ],
   "originalLanguage" : {
     "terminologyId" : {
@@ -403,5 +465,15 @@
     },
     "codeString" : "en"
   },
-  "translations" : [ ]
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  } ]
 }
