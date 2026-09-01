@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "5d5d61a25ea611f6b107d63ca864c548",
+      "MD5-CAM-1.0.1" : "24481e9971878349f8d7b7897a5f9bf4",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.22",
+      "sem_ver" : "1.0.0-alpha.23",
       "build_uid" : ""
     },
     "details" : {
@@ -919,139 +919,139 @@
         "at0002.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
-          "text" : "Belangrijkste overeengekomen doel van medisch beleid",
+          "text" : "Key agreed objective of medical policy",
           "description" : "The overall intent for future care and treatment for the individual.",
           "comment" : "The proposed value set is based on the MJA reference. \r\nCoding the intent of care with an external terminology is preferred, where possible."
         },
         "at0014.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.1",
-          "text" : "Kunstmatige invasieve beademing",
+          "text" : "Invasive mechanical ventilation",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.2",
-          "text" : "Opname op intensive care",
+          "text" : "Admission to intensive care",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.3",
-          "text" : "Opname in ziekenhuis",
+          "text" : "Hospital admission",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.4",
-          "text" : "Behandeling met antibiotica",
+          "text" : "Treatment with antibiotics",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.5",
-          "text" : "Toediening van een bloedproduct",
+          "text" : "Administration of a blood product",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.6",
-          "text" : "Overige behandelgrenzen",
+          "text" : "Other treatment limits",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0009.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0009.1",
-          "text" : "Reanimatie",
+          "text" : "CPR",
           "description" : "Decision about the extent of cardiopulmonary resuscitation (CPR) intervention appropriate for this individual."
         },
         "at0008.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0008.1",
-          "text" : "Beperkingen",
+          "text" : "Limits",
           "description" : "Narrative description about all advance intervention decisions, including the CPR decision.",
           "comment" : "May be used to record a narrative overview of the advance intervention decision that reflect the specific circumstances for the individual. This includes any limitations, or conditional circumstances applicable, to interventions. This description may or may not be supported by structured data, recorded using the ‘Per intervention’ cluster. If both this narrative description and ‘Per intervention’ structured data is recorded, caution is required as there is a potential risk of divergence. This data element may be used to capture legacy data that is not available in a structured format."
         },
         "at0044.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0044.1",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about all advance intervention decisions, not captured in other fields."
         },
         "at0040.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.1",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0040.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.2",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0040.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.3",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0040.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.4",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0040.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.5",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0040.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.6",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0039.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.2",
-          "text" : "Beperkingen",
+          "text" : "Limits",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.3",
-          "text" : "Beperkingen",
+          "text" : "Limits",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.4",
-          "text" : "Beperkingen",
+          "text" : "Limits",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.5",
-          "text" : "Beperkingen",
+          "text" : "Limits",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.6",
-          "text" : "Beperkingen",
+          "text" : "Limits",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
@@ -1064,56 +1064,56 @@
         "at0014.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.7",
-          "text" : "Is er een afrspraak over moment van uitzetten ICD?",
+          "text" : "Is there an agreement regarding the timing of ICD deactivation?",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0040.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0040.7",
-          "text" : "Toelichting gemaakte afspraken",
+          "text" : "Explanation of agreements made",
           "description" : "Additional narrative about the intervention decision, not captured in other fields.",
           "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0034.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.1",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         },
         "at0034.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.2",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         },
         "at0034.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.3",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         },
         "at0034.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.4",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         },
         "at0034.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.5",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         },
         "at0034.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.6",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         },
         "at0034.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.7",
-          "text" : "Behandelbesluit",
+          "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
         }
       },
