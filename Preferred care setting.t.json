@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "feddf7c3b2bbc5b5adc9e0ab15f34cd2",
-      "PARENT:MD5-CAM-1.0.1" : "35debad970401f06287de8d3cec3e0ed",
-      "sem_ver" : "1.0.0-alpha.3",
+      "MD5-CAM-1.0.1" : "8a0a0f2ac763f86b2a94e25e2f60602f",
+      "PARENT:MD5-CAM-1.0.1" : "9fd0940aa213a572427fcfc4dd7e8cd7",
+      "sem_ver" : "1.0.0-alpha.4",
       "build_uid" : ""
     },
     "details" : {
@@ -34,6 +34,19 @@
           "codeString" : "en"
         },
         "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "keywords" : [ ],
+        "copyright" : "© openEHR Foundation",
         "originalResourceUri" : { },
         "otherDetails" : { }
       }
@@ -217,6 +230,26 @@
         "at0009.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0009.1",
+          "text" : "Preferred place of death",
+          "description" : ""
+        },
+        "at0014.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0014.1",
+          "text" : "Explanation",
+          "description" : "The reason why this location is preferred or recommended."
+        }
+      },
+      "nl" : {
+        "ac0.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "text" : "(Synthesized)",
+          "code" : "ac0.1",
+          "description" : ""
+        },
+        "at0009.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0009.1",
           "text" : "Gewenste plek van overlijden",
           "description" : ""
         },
@@ -224,7 +257,7 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.1",
           "text" : "Toelichting",
-          "description" : "The reason why this location is preferred or recommended."
+          "description" : "*The reason why this location is preferred or recommended. (en)"
         }
       }
     },
@@ -256,5 +289,15 @@
     },
     "codeString" : "en"
   },
-  "translations" : [ ]
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  } ]
 }
