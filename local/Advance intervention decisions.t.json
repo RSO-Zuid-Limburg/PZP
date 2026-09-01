@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "7f62fea5047a58450913668ae3d48e5c",
+      "MD5-CAM-1.0.1" : "5d5d61a25ea611f6b107d63ca864c548",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.21",
+      "sem_ver" : "1.0.0-alpha.22",
       "build_uid" : ""
     },
     "details" : {
@@ -214,11 +214,6 @@
                       } ]
                     } ],
                     "attributeTuples" : [ ]
-                  }, {
-                    "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "DV_TEXT",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ]
                   } ]
                 } ],
                 "attributeTuples" : [ ]
@@ -252,6 +247,7 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
+                "occurrences" : "0..1",
                 "nodeId" : "at0039.2",
                 "attributes" : [ ],
                 "attributeTuples" : [ ]
@@ -314,11 +310,6 @@
                       } ]
                     } ],
                     "attributeTuples" : [ ]
-                  }, {
-                    "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "DV_TEXT",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ]
                   } ]
                 } ],
                 "attributeTuples" : [ ]
@@ -352,6 +343,7 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
+                "occurrences" : "0..1",
                 "nodeId" : "at0039.3",
                 "attributes" : [ ],
                 "attributeTuples" : [ ]
@@ -414,11 +406,6 @@
                       } ]
                     } ],
                     "attributeTuples" : [ ]
-                  }, {
-                    "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "DV_TEXT",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ]
                   } ]
                 } ],
                 "attributeTuples" : [ ]
@@ -452,6 +439,7 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
+                "occurrences" : "0..1",
                 "nodeId" : "at0039.4",
                 "attributes" : [ ],
                 "attributeTuples" : [ ]
@@ -514,11 +502,6 @@
                       } ]
                     } ],
                     "attributeTuples" : [ ]
-                  }, {
-                    "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "DV_TEXT",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ]
                   } ]
                 } ],
                 "attributeTuples" : [ ]
@@ -552,6 +535,7 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
+                "occurrences" : "0..1",
                 "nodeId" : "at0039.5",
                 "attributes" : [ ],
                 "attributeTuples" : [ ]
@@ -614,11 +598,6 @@
                       } ]
                     } ],
                     "attributeTuples" : [ ]
-                  }, {
-                    "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "DV_TEXT",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ]
                   } ]
                 } ],
                 "attributeTuples" : [ ]
@@ -652,6 +631,7 @@
               }, {
                 "@type" : "C_COMPLEX_OBJECT",
                 "rmTypeName" : "ELEMENT",
+                "occurrences" : "0..1",
                 "nodeId" : "at0039.6",
                 "attributes" : [ ],
                 "attributeTuples" : [ ]
