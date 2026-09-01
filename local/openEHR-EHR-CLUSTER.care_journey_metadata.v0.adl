@@ -6,6 +6,13 @@ concept
 
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+			>
+		>
+	>
 
 description
 	original_author = <
@@ -19,6 +26,10 @@ description
 		["en"] = <
 			language = <[ISO_639-1::en]>
 		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			copyright = <"© openEHR Foundation">
+		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
@@ -26,7 +37,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"cb43f0f90b4194cfafa7c2a55a56f648">
+		["MD5-CAM-1.0.1"] = <"3b03186e9558761ac0a4788822af2235">
 		["build_uid"] = <"cb42d24f-9773-3a1e-abb6-163b93b0074e">
 	>
 
@@ -72,6 +83,26 @@ ontology
 				["at0003"] = <
 					text = <"Patient journey identifier">
 					description = <"A patient-journey specific identifier i.e unique to a patient's journey along a specific care pathway.">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Care journey metadata (en)">
+					description = <"*Tp capture Care plan metadata (en)">
+				>
+				["at0001"] = <
+					text = <"*Care plan name (en)">
+					description = <"*The name , preferably coded of the Care plan with which this journey is associated, and against which the composition was updated. (en)">
+				>
+				["at0002"] = <
+					text = <"*Care plan identifier (en)">
+					description = <"*The identifier , preferably coded, of the Care plan with which this journey is associated, and against which the composition was updated. (en)">
+				>
+				["at0003"] = <
+					text = <"*Patient journey identifier (en)">
+					description = <"*A patient-journey specific identifier i.e unique to a patient's journey along a specific care pathway. (en)">
 				>
 			>
 		>
