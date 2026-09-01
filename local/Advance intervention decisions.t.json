@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "1fb16c2af9ceff571761e6bc621a2d39",
+      "MD5-CAM-1.0.1" : "7f62fea5047a58450913668ae3d48e5c",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.20",
+      "sem_ver" : "1.0.0-alpha.21",
       "build_uid" : ""
     },
     "details" : {
@@ -1234,38 +1234,38 @@
         },
         "at0014.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0014",
-          "text" : "Per interventie (2)",
+          "code" : "at0014.2",
+          "text" : "Opname op intensive care",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
         },
         "at0014.3" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0014",
-          "text" : "Per interventie (3)",
+          "code" : "at0014.3",
+          "text" : "Opname in ziekenhuis",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
         },
         "at0014.4" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0014",
-          "text" : "Per interventie (4)",
+          "code" : "at0014.4",
+          "text" : "Behandeling met antibiotica",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
         },
         "at0014.5" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0014",
-          "text" : "Per interventie (5)",
+          "code" : "at0014.5",
+          "text" : "Toediening van een bloedproduct",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
         },
         "at0014.6" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0014",
-          "text" : "Per interventie (6)",
+          "code" : "at0014.6",
+          "text" : "Overige behandelgrenzen",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
         },
         "at0014.7" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0014",
-          "text" : "Per interventie (7)",
+          "code" : "at0014.7",
+          "text" : "Is er een afrspraak over moment van uitzetten ICD?",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
         },
         "at0009.1" : {
@@ -1287,6 +1287,144 @@
           "text" : "Beperkingen",
           "description" : "Narratieve beschrijving van alle behandelaanwijzingen, inclusief het reanimatiebesluit.",
           "comment" : "Kan worden gebruikt om een narratief overzicht van de behandelaanwijzingen vast te leggen dat de specifieke omstandigheden van het individu weerspiegelt. Dit omvat eventuele beperkingen of situatie-afhankelijke omstandigheden die van toepassing zijn op interventies. Deze beschrijving kan al dan niet worden ondersteund door gestructureerde gegevens, vastgelegd via het cluster 'Per interventie'. Als zowel deze narratieve beschrijving als de gestructureerde gegevens van 'Per interventie' worden vastgelegd, is voorzichtigheid geboden vanwege het risico op onderlinge tegenstrijdigheid. Dit gegevenselement kan worden gebruikt om historische gegevens vast te leggen die niet beschikbaar zijn in een gestructureerd formaat."
+        },
+        "at0034.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.3",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0034.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.2",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0034.5" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.5",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0034.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.4",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0034.7" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.7",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0034.6" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.6",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0034.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0034.1",
+          "text" : "Behandelbesluit",
+          "description" : "Besluit over de geïdentificeerde interventie."
+        },
+        "at0014.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0014.1",
+          "text" : "Kunstmatige invasieve beademing",
+          "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
+        },
+        "at0039.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0039.2",
+          "text" : "Beperkingen",
+          "description" : "Beschrijving van de omstandigheid/omstandigheden waaronder een 'Voorwaardelijke aanbeveling' van toepassing is.",
+          "comment" : "Dit gegevenselement is alleen relevant als de optie 'Voorwaardelijke aanbeveling' is geselecteerd in het gegevenselement 'Besluit'. Bijvoorbeeld: \"Overplaatsing naar het ziekenhuis is alleen van toepassing als het individu een fractuur oploopt en immobilisatie nodig heeft voor pijnbestrijding.\""
+        },
+        "at0039.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0039.4",
+          "text" : "Beperkingen",
+          "description" : "Beschrijving van de omstandigheid/omstandigheden waaronder een 'Voorwaardelijke aanbeveling' van toepassing is.",
+          "comment" : "Dit gegevenselement is alleen relevant als de optie 'Voorwaardelijke aanbeveling' is geselecteerd in het gegevenselement 'Besluit'. Bijvoorbeeld: \"Overplaatsing naar het ziekenhuis is alleen van toepassing als het individu een fractuur oploopt en immobilisatie nodig heeft voor pijnbestrijding.\""
+        },
+        "at0039.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0039.3",
+          "text" : "Beperkingen",
+          "description" : "Beschrijving van de omstandigheid/omstandigheden waaronder een 'Voorwaardelijke aanbeveling' van toepassing is.",
+          "comment" : "Dit gegevenselement is alleen relevant als de optie 'Voorwaardelijke aanbeveling' is geselecteerd in het gegevenselement 'Besluit'. Bijvoorbeeld: \"Overplaatsing naar het ziekenhuis is alleen van toepassing als het individu een fractuur oploopt en immobilisatie nodig heeft voor pijnbestrijding.\""
+        },
+        "at0039.6" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0039.6",
+          "text" : "Beperkingen",
+          "description" : "Beschrijving van de omstandigheid/omstandigheden waaronder een 'Voorwaardelijke aanbeveling' van toepassing is.",
+          "comment" : "Dit gegevenselement is alleen relevant als de optie 'Voorwaardelijke aanbeveling' is geselecteerd in het gegevenselement 'Besluit'. Bijvoorbeeld: \"Overplaatsing naar het ziekenhuis is alleen van toepassing als het individu een fractuur oploopt en immobilisatie nodig heeft voor pijnbestrijding.\""
+        },
+        "at0039.5" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0039.5",
+          "text" : "Beperkingen",
+          "description" : "Beschrijving van de omstandigheid/omstandigheden waaronder een 'Voorwaardelijke aanbeveling' van toepassing is.",
+          "comment" : "Dit gegevenselement is alleen relevant als de optie 'Voorwaardelijke aanbeveling' is geselecteerd in het gegevenselement 'Besluit'. Bijvoorbeeld: \"Overplaatsing naar het ziekenhuis is alleen van toepassing als het individu een fractuur oploopt en immobilisatie nodig heeft voor pijnbestrijding.\""
+        },
+        "at0040.7" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.7",
+          "text" : "Toelichting gemaakte afspraken",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "at0040.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.1",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "at0040.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.2",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "at0040.5" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.5",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "at0044.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0044.1",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over alle behandelaanwijzingen, niet vastgelegd in andere velden."
+        },
+        "at0040.6" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.6",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "at0040.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.3",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "at0040.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0040.4",
+          "text" : "Toelichting",
+          "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
+          "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
         }
       }
     },
