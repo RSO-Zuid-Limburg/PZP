@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "eb966f9067ac01f9335f7502f5ba7503",
+      "MD5-CAM-1.0.1" : "94daeda33ada706ac72f7983f2d4a56e",
       "PARENT:MD5-CAM-1.0.1" : "8d3d4e087840051c6901fb2ee7b49f30",
-      "sem_ver" : "1.0.0-alpha.5",
+      "sem_ver" : "1.0.0-alpha.6",
       "build_uid" : ""
     },
     "details" : {
@@ -183,7 +183,7 @@
         "at0002.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
-          "text" : "Wat zouden zorgverleners, volgens de patiënt, moeten weten om goede zorg te kunnen verlenen? Heeft deze patiënt specifieke wensen met betrekking tot zijn zorg? (incl. culturele/religieuze/sociale/spirituele aspecten)",
+          "text" : "What do healthcare providers need to know, according to the patient, in order to provide good care? Does this patient have specific wishes regarding their care? (including cultural, religious, social, and spiritual aspects)",
           "description" : "Narrative supplied by the patient about the topic."
         },
         "at0004.2" : {
@@ -195,11 +195,24 @@
         "at0002.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.4",
-          "text" : "Wat verder nog belangrijk is",
+          "text" : "Other important points",
           "description" : "Narrative supplied by the patient about the topic."
         }
       },
-      "nl" : { }
+      "nl" : {
+        "at0002.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Wat zouden zorgverleners, volgens de patiënt, moeten weten om goede zorg te kunnen verlenen? Heeft deze patiënt specifieke wensen met betrekking tot zijn zorg? (incl. culturele/religieuze/sociale/spirituele aspecten)",
+          "description" : "*Narrative supplied by the patient about the topic. (en)"
+        },
+        "at0002.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.4",
+          "text" : "Wat verder nog belangrijk is",
+          "description" : "*Narrative supplied by the patient about the topic. (en)"
+        }
+      }
     },
     "termBindings" : { },
     "terminologyExtracts" : { },
