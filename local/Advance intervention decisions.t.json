@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "24481e9971878349f8d7b7897a5f9bf4",
+      "MD5-CAM-1.0.1" : "04b4e4feb0ff685d61a2f205b8ebf4e2",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.23",
+      "sem_ver" : "1.0.0-alpha.24",
       "build_uid" : ""
     },
     "details" : {
@@ -662,19 +662,7 @@
                   "children" : [ {
                     "@type" : "C_COMPLEX_OBJECT",
                     "rmTypeName" : "DV_TEXT",
-                    "defaultValue" : {
-                      "value" : "Overige behandelgrenzen",
-                      "@type" : "DV_TEXT"
-                    },
-                    "attributes" : [ {
-                      "@type" : "C_ATTRIBUTE",
-                      "rmAttributeName" : "value",
-                      "children" : [ {
-                        "@type" : "C_STRING",
-                        "rmTypeName" : "STRING",
-                        "constraint" : [ "Overige behandelgrenzen" ]
-                      } ]
-                    } ],
+                    "attributes" : [ ],
                     "attributeTuples" : [ ]
                   } ]
                 } ],
@@ -694,12 +682,13 @@
                       "rmAttributeName" : "defining_code",
                       "children" : [ {
                         "@type" : "C_TERMINOLOGY_CODE",
-                        "rmTypeName" : "CODE_PHRASE",
+                        "rmTypeName" : "TERMINOLOGY_CODE",
                         "occurrences" : "1..1",
                         "terminologyId" : {
                           "value" : "local"
                         },
-                        "constraint" : [ "at0035", "at0036", "at0037", "at0038" ]
+                        "constraint" : [ "ac0.38" ],
+                        "selectedTerminologies" : [ ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -739,18 +728,36 @@
                   "rmAttributeName" : "value",
                   "children" : [ {
                     "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "DV_TEXT",
+                    "rmTypeName" : "DV_CODED_TEXT",
                     "defaultValue" : {
-                      "value" : "Afspraak Uitzetten ICD",
-                      "@type" : "DV_TEXT"
+                      "defining_code" : {
+                        "terminology_id" : {
+                          "value" : "http://snomed.info/sct",
+                          "@type" : "TERMINOLOGY_ID"
+                        },
+                        "code_string" : "400231000146108",
+                        "@type" : "CODE_PHRASE"
+                      },
+                      "value" : "Uitzetten van cardioverter-defibrillator in laatste levensfase (verrichting)",
+                      "@type" : "DV_CODED_TEXT"
                     },
                     "attributes" : [ {
                       "@type" : "C_ATTRIBUTE",
-                      "rmAttributeName" : "value",
+                      "rmAttributeName" : "defining_code",
                       "children" : [ {
-                        "@type" : "C_STRING",
-                        "rmTypeName" : "STRING",
-                        "constraint" : [ "Afspraak Uitzetten ICD" ]
+                        "@type" : "C_TERMINOLOGY_CODE",
+                        "rmTypeName" : "TERMINOLOGY_CODE",
+                        "occurrences" : "1..1",
+                        "terminologyId" : {
+                          "value" : "http://snomed.info/sct"
+                        },
+                        "constraint" : [ ],
+                        "selectedTerminologies" : [ "http://snomed.info/sct" ],
+                        "includedExternalTerminologyCodes" : [ {
+                          "terminologyId" : "http://snomed.info/sct",
+                          "code" : "400231000146108",
+                          "value" : "Uitzetten van cardioverter-defibrillator in laatste levensfase (verrichting)"
+                        } ]
                       } ]
                     } ],
                     "attributeTuples" : [ ]
@@ -1115,6 +1122,12 @@
           "code" : "at0034.7",
           "text" : "Treatment decision",
           "description" : "Decision about the identified intervention."
+        },
+        "ac0.38" : {
+          "@type" : "ARCHETYPE_TERM",
+          "text" : "(Synthesized)",
+          "code" : "ac0.38",
+          "description" : ""
         }
       },
       "nb" : {
@@ -1159,6 +1172,12 @@
           "code" : "at0014.1",
           "text" : "Per intervensjon (7)",
           "description" : "Detaljer om beslutninger om mulige behandlinger eller tiltak som kan være livreddende, livsforlengende eller føre til uønskede konsekvenser for individet."
+        },
+        "ac0.38" : {
+          "@type" : "ARCHETYPE_TERM",
+          "text" : "*(Synthesized) (en)",
+          "code" : "ac0.38",
+          "description" : ""
         }
       },
       "de" : {
@@ -1203,6 +1222,12 @@
           "code" : "at0014.1",
           "text" : "Pro Intervention (7)",
           "description" : "Details der Entscheidung über mögliche Behandlungen oder Aktivitäten, die lebensrettend oder lebensverlängernd sein können oder unerwünschte Nebenwirkungen verursachen.\r\n"
+        },
+        "ac0.38" : {
+          "@type" : "ARCHETYPE_TERM",
+          "text" : "*(Synthesized) (en)",
+          "code" : "ac0.38",
+          "description" : ""
         }
       },
       "nl" : {
@@ -1405,6 +1430,12 @@
           "text" : "Toelichting",
           "description" : "Aanvullende narratieve informatie over het besluit betreffende de interventie, niet vastgelegd in andere velden.",
           "comment" : "Bijvoorbeeld: de gronden waarop het besluit over de interventie is genomen."
+        },
+        "ac0.38" : {
+          "@type" : "ARCHETYPE_TERM",
+          "text" : "*(Synthesized) (en)",
+          "code" : "ac0.38",
+          "description" : ""
         }
       }
     },
@@ -1533,6 +1564,46 @@
         "@type" : "VALUE_SET",
         "id" : "ac0.37",
         "members" : [ ]
+      },
+      "ac0.38" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.38",
+        "members" : [ "at0035", "at0037", "at0038" ]
+      },
+      "ac0.40" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.40",
+        "members" : [ "at0016", "at0017", "at0018", "at0019", "at0020", "at0021", "at0022", "at0023", "at0024", "at0025", "at0026", "at0027", "at0028", "at0029", "at0030", "at0031", "at0032", "at0033" ]
+      },
+      "ac0.41" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.41",
+        "members" : [ "at0016", "at0017", "at0018", "at0019", "at0020", "at0021", "at0022", "at0023", "at0024", "at0025", "at0026", "at0027", "at0028", "at0029", "at0030", "at0031", "at0032", "at0033" ]
+      },
+      "ac0.43" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.43",
+        "members" : [ "at0016", "at0017", "at0018", "at0019", "at0020", "at0021", "at0022", "at0023", "at0024", "at0025", "at0026", "at0027", "at0028", "at0029", "at0030", "at0031", "at0032", "at0033" ]
+      },
+      "ac0.44" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.44",
+        "members" : [ ]
+      },
+      "ac0.45" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.45",
+        "members" : [ ]
+      },
+      "ac0.46" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.46",
+        "members" : [ "ac0.42" ]
+      },
+      "ac0.47" : {
+        "@type" : "VALUE_SET",
+        "id" : "ac0.47",
+        "members" : [ "ac0.42" ]
       }
     }
   },
