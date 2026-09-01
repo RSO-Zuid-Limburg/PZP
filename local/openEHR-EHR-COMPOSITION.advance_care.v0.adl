@@ -6,6 +6,13 @@ concept
 
 language
 	original_language = <[ISO_639-1::en]>
+	translations = <
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			author = <
+			>
+		>
+	>
 
 description
 	original_author = <
@@ -33,6 +40,10 @@ This archetype can be used as a single COMPOSITION for querying information abou
 
 Not to be used to carry archetypes that are related to care plans related to management current health and social requirements - use COMPOSITION.care_plan for this purpose.">
 		>
+		["nl"] = <
+			language = <[ISO_639-1::nl]>
+			copyright = <"© openEHR Foundation">
+		>
 	>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
@@ -40,7 +51,7 @@ Not to be used to carry archetypes that are related to care plans related to man
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"25A207093B9E4A32A7F2A9463F5D434F">
+		["MD5-CAM-1.0.1"] = <"0a8590e666d6bfe0c863a79f4b610652">
 		["build_uid"] = <"6fb8d70b-2a61-4dca-957b-665b5cffaba6">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -94,6 +105,31 @@ ontology
 					text = <"Extension">
 					description = <"Additional information required to extend the model with local content or to align with other reference models or formalisms.">
 					comment = <"For example: local information requirements; or additional metadata to align with FHIR.">
+				>
+			>
+		>
+		["nl"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Advance care (en)">
+					description = <"*A plan for the management of future health and social care requirements, including chronic illness and end of life care. (en)">
+				>
+				["at0001"] = <
+					text = <"*Coded text (en)">
+					description = <"">
+				>
+				["at0002"] = <
+					text = <"*Event Context (en)">
+					description = <"">
+				>
+				["at0003"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0004"] = <
+					text = <"*Extension (en)">
+					description = <"*Additional information required to extend the model with local content or to align with other reference models or formalisms. (en)">
+					comment = <"*For example: local information requirements; or additional metadata to align with FHIR. (en)">
 				>
 			>
 		>
