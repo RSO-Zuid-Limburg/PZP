@@ -19,7 +19,7 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "8a0a0f2ac763f86b2a94e25e2f60602f",
+      "MD5-CAM-1.0.1" : "3b36fd002b2689e70626da4d5eb04eb8",
       "PARENT:MD5-CAM-1.0.1" : "9fd0940aa213a572427fcfc4dd7e8cd7",
       "sem_ver" : "1.0.0-alpha.4",
       "build_uid" : ""
@@ -165,7 +165,8 @@
                           "value" : "ACP Preferred Place of Death"
                         },
                         "constraint" : [ "ac0.2" ],
-                        "selectedTerminologies" : [ "ACP Preferred Place of Death" ]
+                        "selectedTerminologies" : [ "ACP Preferred Place of Death" ],
+                        "limitToList" : false
                       } ]
                     } ],
                     "attributeTuples" : [ ]
