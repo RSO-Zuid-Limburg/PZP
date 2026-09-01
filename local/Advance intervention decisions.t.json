@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "c6eecee38f226235eaa8ef51876d6e98",
+      "MD5-CAM-1.0.1" : "1fb16c2af9ceff571761e6bc621a2d39",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.19",
+      "sem_ver" : "1.0.0-alpha.20",
       "build_uid" : ""
     },
     "details" : {
@@ -1267,6 +1267,26 @@
           "code" : "at0014",
           "text" : "Per interventie (7)",
           "description" : "Details van het besluit over mogelijke behandelingen of activiteiten die levensreddend of levensverlengend kunnen zijn, of ongewenste bijwerkingen kunnen veroorzaken."
+        },
+        "at0009.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0009.1",
+          "text" : "Reanimatie",
+          "description" : "Besluit over de mate waarin reanimatie (CPR) als interventie passend is voor dit individu."
+        },
+        "at0002.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Belangrijkste overeengekomen doel van medisch beleid",
+          "description" : "Het belangrijkste doel van medisch beleid voor de toekomstige zorg en behandeling van het individu.",
+          "comment" : "De voorgestelde waardelijst is gebaseerd op de MJA-referentie.\r\nCodering van het belangrijkste doel van medisch beleid met een externe terminologie heeft de voorkeur, waar mogelijk."
+        },
+        "at0008.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0008.1",
+          "text" : "Beperkingen",
+          "description" : "Narratieve beschrijving van alle behandelaanwijzingen, inclusief het reanimatiebesluit.",
+          "comment" : "Kan worden gebruikt om een narratief overzicht van de behandelaanwijzingen vast te leggen dat de specifieke omstandigheden van het individu weerspiegelt. Dit omvat eventuele beperkingen of situatie-afhankelijke omstandigheden die van toepassing zijn op interventies. Deze beschrijving kan al dan niet worden ondersteund door gestructureerde gegevens, vastgelegd via het cluster 'Per interventie'. Als zowel deze narratieve beschrijving als de gestructureerde gegevens van 'Per interventie' worden vastgelegd, is voorzichtigheid geboden vanwege het risico op onderlinge tegenstrijdigheid. Dit gegevenselement kan worden gebruikt om historische gegevens vast te leggen die niet beschikbaar zijn in een gestructureerd formaat."
         }
       }
     },
