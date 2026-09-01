@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "48b0d091948f9a590ddf054216d63f60",
+      "MD5-CAM-1.0.1" : "c574ca28b1afab633c4eb3293021ea72",
       "PARENT:MD5-CAM-1.0.1" : "809a2908c52638f78b341e60a474fdf0",
-      "sem_ver" : "1.0.0-alpha.3",
+      "sem_ver" : "1.0.0-alpha.4",
       "build_uid" : ""
     },
     "details" : {
@@ -327,13 +327,13 @@
         "at0005.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0005.1",
-          "text" : "Heeft de patiënt een ICD?",
+          "text" : "Does the patient have an ICD?",
           "description" : "Presence of the implanted device."
         },
         "at0025.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0025.1",
-          "text" : "Toelichting",
+          "text" : "Explanation",
           "description" : "Additional narrative about the implanted device, not captured in other fields."
         }
       },
@@ -359,6 +359,18 @@
           "text" : "(Synthesized)",
           "code" : "ac0.1",
           "description" : ""
+        },
+        "at0025.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0025.1",
+          "text" : "Toelichting",
+          "description" : "*Additional narrative about the implanted device, not captured in other fields. (en)"
+        },
+        "at0005.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0005.1",
+          "text" : "Heeft de patiënt een ICD?",
+          "description" : "*Presence of the implanted device. (en)"
         }
       }
     },
