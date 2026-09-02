@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "04b4e4feb0ff685d61a2f205b8ebf4e2",
+      "MD5-CAM-1.0.1" : "0180de136a44dbe1f52886021807d305",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.24",
+      "sem_ver" : "1.0.0-alpha.25",
       "build_uid" : ""
     },
     "details" : {
@@ -926,7 +926,7 @@
         "at0002.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
-          "text" : "Key agreed objective of medical policy",
+          "text" : "Main goal of treatment",
           "description" : "The overall intent for future care and treatment for the individual.",
           "comment" : "The proposed value set is based on the MJA reference. \r\nCoding the intent of care with an external terminology is preferred, where possible."
         },
