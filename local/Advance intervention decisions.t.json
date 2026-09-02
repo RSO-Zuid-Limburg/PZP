@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "1914952b1f29d47be243689c189949b7",
+      "MD5-CAM-1.0.1" : "6277b44098d3b7319bc5b4910075d6ed",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.26",
+      "sem_ver" : "1.0.0-alpha.27",
       "build_uid" : ""
     },
     "details" : {
@@ -975,7 +975,7 @@
         "at0008.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0008.1",
-          "text" : "Limits",
+          "text" : "Restrictions",
           "description" : "Narrative description about all advance intervention decisions, including the CPR decision.",
           "comment" : "May be used to record a narrative overview of the advance intervention decision that reflect the specific circumstances for the individual. This includes any limitations, or conditional circumstances applicable, to interventions. This description may or may not be supported by structured data, recorded using the ‘Per intervention’ cluster. If both this narrative description and ‘Per intervention’ structured data is recorded, caution is required as there is a potential risk of divergence. This data element may be used to capture legacy data that is not available in a structured format."
         },
@@ -1079,6 +1079,55 @@
           "text" : "(Synthesized)",
           "code" : "ac0.38",
           "description" : ""
+        },
+        "at0015.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.1",
+          "text" : "Treatment",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
+        },
+        "at0015.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.2",
+          "text" : "Treatment",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
+        },
+        "at0015.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.3",
+          "text" : "Treatment",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
+        },
+        "at0015.4" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.4",
+          "text" : "Treatment",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
+        },
+        "at0015.5" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.5",
+          "text" : "Treatment",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
+        },
+        "at0015.6" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.6",
+          "text" : "Treatment",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
+        },
+        "at0015.7" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0015.7",
+          "text" : "Treatment of turning off ICD",
+          "description" : "Name of the possible treatment, procedure or activity.",
+          "comment" : "While this archetype is intended for all clinical decisions about possible future interventions, the proposed DV_CODED_TEXT value set for the 'Intervention' data element is deliberately not intended to be exhaustive. Instead it has been designed to be inclusive of most of the common life-saving treatments within an emergency context. The alternate choice of the DV_TEXT option can be used to add a local value set or bind to an alternative external value set within a template."
         }
       },
       "nb" : {
