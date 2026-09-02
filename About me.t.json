@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "46c0c1f9a07dba15d89440a084b2f6cd",
+      "MD5-CAM-1.0.1" : "f6b169d987fdc5f6534d7de3e949b838",
       "PARENT:MD5-CAM-1.0.1" : "8d3d4e087840051c6901fb2ee7b49f30",
-      "sem_ver" : "1.0.0-alpha.8",
+      "sem_ver" : "1.0.0-alpha.9",
       "build_uid" : ""
     },
     "details" : {
@@ -185,7 +185,7 @@
         "at0002.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
-          "text" : "What do healthcare providers need to know, according to the patient, in order to provide good care? Does this patient have specific wishes regarding their care? (including cultural, religious, social, and spiritual aspects)",
+          "text" : "What, according to the patient, should healthcare providers know to provide good care? Does this patient have specific wishes regarding their care (including cultural/religious/social/spiritual aspects)?",
           "description" : "Narrative supplied by the patient about the topic."
         },
         "at0004.2" : {
