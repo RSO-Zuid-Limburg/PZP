@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "5379e3cb2f0f891c5d62bae32b5f1885",
+      "MD5-CAM-1.0.1" : "46c0c1f9a07dba15d89440a084b2f6cd",
       "PARENT:MD5-CAM-1.0.1" : "8d3d4e087840051c6901fb2ee7b49f30",
-      "sem_ver" : "1.0.0-alpha.7",
+      "sem_ver" : "1.0.0-alpha.8",
       "build_uid" : ""
     },
     "details" : {
@@ -197,7 +197,7 @@
         "at0002.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.4",
-          "text" : "Other important points",
+          "text" : "What else is important",
           "description" : "Narrative supplied by the patient about the topic."
         }
       },
