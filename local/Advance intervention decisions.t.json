@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "0180de136a44dbe1f52886021807d305",
+      "MD5-CAM-1.0.1" : "1914952b1f29d47be243689c189949b7",
       "PARENT:MD5-CAM-1.0.1" : "581E040E3C50210AE36B6E67D4450150",
-      "sem_ver" : "1.0.0-alpha.25",
+      "sem_ver" : "1.0.0-alpha.26",
       "build_uid" : ""
     },
     "details" : {
@@ -933,13 +933,13 @@
         "at0014.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.1",
-          "text" : "Invasive mechanical ventilation",
+          "text" : "Artificial ventilation",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.2",
-          "text" : "Admission to intensive care",
+          "text" : "Admission to intensive care unit",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.3" : {
@@ -951,13 +951,13 @@
         "at0014.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.4",
-          "text" : "Treatment with antibiotics",
+          "text" : "Antibiotic therapy",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.5",
-          "text" : "Administration of a blood product",
+          "text" : "Administration of blood product",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
         },
         "at0014.6" : {
@@ -969,7 +969,7 @@
         "at0009.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0009.1",
-          "text" : "CPR",
+          "text" : "Cardiopulmonary resuscitation",
           "description" : "Decision about the extent of cardiopulmonary resuscitation (CPR) intervention appropriate for this individual."
         },
         "at0008.1" : {
@@ -982,83 +982,41 @@
         "at0044.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0044.1",
-          "text" : "Explanation",
+          "text" : "Comment",
           "description" : "Additional narrative about all advance intervention decisions, not captured in other fields."
-        },
-        "at0040.1" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.1",
-          "text" : "Explanation",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
-        },
-        "at0040.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.2",
-          "text" : "Explanation",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
-        },
-        "at0040.3" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.3",
-          "text" : "Explanation",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
-        },
-        "at0040.4" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.4",
-          "text" : "Explanation",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
-        },
-        "at0040.5" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.5",
-          "text" : "Explanation",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
-        },
-        "at0040.6" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.6",
-          "text" : "Explanation",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0039.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.2",
-          "text" : "Limits",
+          "text" : "Restrictions",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.3",
-          "text" : "Limits",
+          "text" : "Restrictions",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.4",
-          "text" : "Limits",
+          "text" : "Restrictions",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.5",
-          "text" : "Limits",
+          "text" : "Restrictions",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
         "at0039.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0039.6",
-          "text" : "Limits",
+          "text" : "Restrictions",
           "description" : "Description of the circumstance/s in which a 'Conditional recommendation' is applicable.",
           "comment" : "This data element is only relevant if the 'Conditional recommendation' option is selected in the 'Decision' data element. For example:' \"Transfer to hospital is only applicable in the circumstances where the individual suffers a fracture and requires immobilization for pain relief.#"
         },
@@ -1071,56 +1029,49 @@
         "at0014.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.7",
-          "text" : "Is there an agreement regarding the timing of ICD deactivation?",
+          "text" : "Is there a verified agreement on the timing of turning off the ICD?",
           "description" : "Details of the decision about possible treatments or activities that may be life-saving, life-prolonging or cause undesirable side effects."
-        },
-        "at0040.7" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0040.7",
-          "text" : "Explanation of agreements made",
-          "description" : "Additional narrative about the intervention decision, not captured in other fields.",
-          "comment" : "For example: the justification or rationale for the intervention decision."
         },
         "at0034.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.1",
-          "text" : "Treatment decision",
+          "text" : "Treatment permitted",
           "description" : "Decision about the identified intervention."
         },
         "at0034.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.2",
-          "text" : "Treatment decision",
+          "text" : "Treatment permitted",
           "description" : "Decision about the identified intervention."
         },
         "at0034.3" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.3",
-          "text" : "Treatment decision",
+          "text" : "Treatment permitted",
           "description" : "Decision about the identified intervention."
         },
         "at0034.4" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.4",
-          "text" : "Treatment decision",
+          "text" : "Treatment permitted",
           "description" : "Decision about the identified intervention."
         },
         "at0034.5" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.5",
-          "text" : "Treatment decision",
+          "text" : "Treatment permitted",
           "description" : "Decision about the identified intervention."
         },
         "at0034.6" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.6",
-          "text" : "Treatment decision",
+          "text" : "Agreement to turn off ICD",
           "description" : "Decision about the identified intervention."
         },
         "at0034.7" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0034.7",
-          "text" : "Treatment decision",
+          "text" : "Treatment permitted",
           "description" : "Decision about the identified intervention."
         },
         "ac0.38" : {
