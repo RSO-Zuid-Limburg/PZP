@@ -19,9 +19,9 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "3b36fd002b2689e70626da4d5eb04eb8",
+      "MD5-CAM-1.0.1" : "9ce2f19faa1330117fc6d99c2f2af4a4",
       "PARENT:MD5-CAM-1.0.1" : "9fd0940aa213a572427fcfc4dd7e8cd7",
-      "sem_ver" : "1.0.0-alpha.4",
+      "sem_ver" : "1.0.0-alpha.5",
       "build_uid" : ""
     },
     "details" : {
@@ -237,7 +237,7 @@
         "at0014.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0014.1",
-          "text" : "Explanation",
+          "text" : "Comment",
           "description" : "The reason why this location is preferred or recommended."
         }
       },
