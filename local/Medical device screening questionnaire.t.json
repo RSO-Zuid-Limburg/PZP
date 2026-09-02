@@ -19,7 +19,7 @@
       "original_namespace" : "nl.openehr",
       "original_publisher" : "Stichting openEHR Nederland",
       "custodian_namespace" : "nl.openehr",
-      "MD5-CAM-1.0.1" : "201b2048ddbbeaaf50f150264f5c98ef",
+      "MD5-CAM-1.0.1" : "3d08a68636017e66c6f81f2bf7ad2a89",
       "PARENT:MD5-CAM-1.0.1" : "809a2908c52638f78b341e60a474fdf0",
       "sem_ver" : "1.0.0-alpha.5",
       "build_uid" : ""
@@ -339,7 +339,7 @@
         "at0004.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0004.1",
-          "text" : "ICD Product Type",
+          "text" : "ICD",
           "description" : "Name of the implanted medical device or device type being screened."
         }
       },
