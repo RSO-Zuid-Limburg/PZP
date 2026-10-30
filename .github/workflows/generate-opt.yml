@@ -1,0 +1,61 @@
+name: Generate OPTs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.t.json'
+      - '**.adl'          # archetype changes change the flattened OPT as well
+      - '.github/workflows/generate-opt.yml'
+      - '.github/scripts/generate-opt.sh'
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+*'   # e.g. 0.0.3, 1.0.0-rc.1: generate OPTs and publish a release
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Serialise runs so OPT commits don't race each other.
+concurrency:
+  group: archetype-designer-opt
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate OPTs via Archetype Designer
+        run: bash .github/scripts/generate-opt.sh
+        env:
+          AD_URL: ${{ vars.AD_URL || 'https://tools.openehr.org/designer' }}
+          AD_USER: ${{ secrets.AD_USER }}
+          AD_PASSWORD: ${{ secrets.AD_PASSWORD }}
+          AD_REPOSITORY_ID: ${{ vars.AD_REPOSITORY_ID }}   # the existing GitHub-backed pzp repository
+          COMMIT_SHA: ${{ github.sha }}
+          OUT_DIR: opt
+
+      - name: Commit OPTs
+        if: github.ref_type == 'branch'
+        run: |
+          git add -A opt
+          if git diff --cached --quiet; then
+            echo "OPTs unchanged"; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Regenerate OPTs for ${GITHUB_SHA::7} [skip ci]"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Publish release with OPTs
+        if: github.ref_type == 'tag'
+        run: |
+          # semver pre-release suffix (alfa, beta, rc) -> GitHub pre-release
+          flags=""
+          case "$GITHUB_REF_NAME" in *-*) flags="--prerelease" ;; esac
+          gh release create "$GITHUB_REF_NAME" opt/*.opt \
+            --title "$GITHUB_REF_NAME" --generate-notes --verify-tag $flags
+        env:
+          GH_TOKEN: ${{ github.token }}
