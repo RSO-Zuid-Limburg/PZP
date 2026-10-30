@@ -11,7 +11,7 @@
     },
     "otherContributors" : [ ],
     "lifecycleState" : {
-      "codeString" : "in_development"
+      "codeString" : "release_candidate"
     },
     "ipAcknowledgements" : { },
     "references" : { },
@@ -22,7 +22,7 @@
       "original_namespace" : "nl.rsozuidlimburg",
       "original_publisher" : "RSO Zuid-Limburg",
       "custodian_namespace" : "nl.rsozuidlimburg",
-      "sem_ver" : "1.0.0-alpha.9",
+      "sem_ver" : "1.0.0-rc.1",
       "is_singleton" : "ehr-tag-formName",
       "build_uid" : "",
       "MD5-CAM-1.0.1" : "0746361fbf6c75c3fccf361c161a593a",
@@ -166,7 +166,7 @@
     "valueSets" : { }
   },
   "adlVersion" : "1.4",
-  "buildUid" : "ee990b36-db75-3806-bac7-af90c95451ed",
+  "buildUid" : "7175af3c-a868-3cd0-931b-6f3db104d95b",
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
