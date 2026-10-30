@@ -55,7 +55,9 @@ jobs:
           # semver pre-release suffix (alfa, beta, rc) -> GitHub pre-release
           flags=""
           case "$GITHUB_REF_NAME" in *-*) flags="--prerelease" ;; esac
-          gh release create "$GITHUB_REF_NAME" opt/*.opt \
+          # one downloadable package: generated OPTs + source templates + manifest
+          zip -r "pzp-$GITHUB_REF_NAME.zip" opt manifest.json ./*.t.json
+          gh release create "$GITHUB_REF_NAME" opt/*.opt "pzp-$GITHUB_REF_NAME.zip" \
             --title "$GITHUB_REF_NAME" --generate-notes --verify-tag $flags
         env:
           GH_TOKEN: ${{ github.token }}
